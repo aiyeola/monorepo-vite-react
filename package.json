@@ -14,6 +14,7 @@
     "tslib": "^2.3.0"
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.14.5",
     "@nx/cypress": "16.1.4",
     "@nx/eslint-plugin": "16.1.4",
     "@nx/jest": "16.1.4",
