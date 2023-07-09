@@ -4,11 +4,12 @@ import styles from './app.module.css';
 import NxWelcome from './nx-welcome';
 
 import { Route, Routes, Link } from 'react-router-dom';
-import { ToolLib } from '@remote/tool-lib';
+import { ToolLib, ToolThree } from '@remote/tool-lib';
 
 export function App() {
   return (
     <div>
+      <ToolThree />
       <ToolLib />
       <NxWelcome title="vite-app" />
 

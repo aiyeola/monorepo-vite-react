@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@remote/app-shell": ["libs/app-shell/src/index.ts"],
       "@remote/tool-lib": ["libs/tool-lib/src/index.ts"]
     }
   },

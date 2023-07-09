@@ -1,0 +1,12 @@
+{
+  "name": "@remote/app-shell",
+  "version": "0.0.1",
+  "main": "index.js",
+  "types": "dist/libs/app-shell/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  }
+}

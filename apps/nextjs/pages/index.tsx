@@ -1,4 +1,6 @@
 import styles from './index.module.css';
+// import AppShell from 'dist/libs/app-shell/index';
+import AppShell from 'libs/app-shell/src/index';
 
 export function Index() {
   /*
@@ -10,11 +12,14 @@ export function Index() {
     <div className={styles.page}>
       <div className="wrapper">
         <div className="container">
+          <AppShell />
+
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
               Welcome nextjs 👋
             </h1>
+            AppShell
           </div>
 
           <div id="hero" className="rounded">
