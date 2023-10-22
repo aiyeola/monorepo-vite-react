@@ -1,6 +1,4 @@
 import styles from './index.module.css';
-// import AppShell from 'dist/libs/app-shell/index';
-import AppShell from 'libs/app-shell/src/index';
 
 export function Index() {
   /*
@@ -12,7 +10,6 @@ export function Index() {
     <div className={styles.page}>
       <div className="wrapper">
         <div className="container">
-          <AppShell />
 
           <div id="welcome">
             <h1>
